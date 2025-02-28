@@ -1,10 +1,41 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Moves content to the top */
+  height: 100vh; /* Full viewport height */
+  padding-top: 20px; /* Adjust top spacing */
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.header h1 {
+  font-size: 28px; /* Adjust size */
+  white-space: nowrap; /* Prevents breaking into two lines */
+  margin: 0;
+  padding: 0;
+}
+
+.home-content {
+  margin-top: 20px; /* Adds some spacing below the title */
+}
+
+.home-content p {
+  margin: 5px 0;
+}
+
+/* Keep your existing styles */
 .logo {
   height: 6em;
   padding: 1.5em;
