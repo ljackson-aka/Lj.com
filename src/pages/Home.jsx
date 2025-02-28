@@ -6,8 +6,8 @@ const Home = () => {
     <div className="home-container">
       <ApplicationTracker />  {/* Tracker stays in the top-right */}
       <div className="home-content">
-        <h1>Welcome to My Job Search Tracker</h1>
-        <p>Track your job applications, interviews, and offers in one place.</p>
+        <h1>Landrick Jackson | Full-Stack AWS Developer</h1>
+        <p>Welcome to Lj.com</p>
       </div>
     </div>
   );
