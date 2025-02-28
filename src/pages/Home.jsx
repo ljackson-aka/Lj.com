@@ -7,7 +7,7 @@ const Home = () => {
       <ApplicationTracker /> {/* Stays in the top-right */}
       
       <div className="header">
-        <h1>Landrick Jackson | Cloud Full-Stack Developer</h1>
+        <h1>Landrick Jackson | Full-Stack Cloud Developer</h1>
       </div>
 
       <div className="home-content">
