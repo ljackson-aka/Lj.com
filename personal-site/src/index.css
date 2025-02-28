@@ -1,0 +1,69 @@
+/* General Page Styling */
+body {
+  background: #1c1c1c; /* Darker off-white */
+  color: #ddd;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Page Layout */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Keeps content centered */
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Ensures tracker stays independent */
+}
+
+.home-content {
+  max-width: 600px;
+  margin-top: 50px; /* Pushes content below navbar */
+}
+
+/* Application Tracker */
+.tracker-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 200px;  /* Half the original size */
+  padding: 10px;
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.tracker-container h2 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.stats-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stat-box {
+  background: #333;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ddd;
+  transition: transform 0.2s ease-in-out;
+}
+
+.stat-box:hover {
+  transform: scale(1.05);
+  background: #444;
+}
+
+.stat-box span {
+  color: #4caf50; /* Green numbers for a positive feel */
+}
